@@ -16,7 +16,7 @@ temp_profile <- list(
     "Shiny",
     "LaTeX"
   ),
-  my_website = "http://google.com",
+  my_website = "https://beta.rstudioconnect.com/connect/#/apps/f7665624-e55e-45c7-851c-66f09b283861/access",
   my_teaser = paste0(
     "Highly analytical and process-oriented scientist, strategist, and technical community builder with",
     year(Sys.Date()) - 2015,
