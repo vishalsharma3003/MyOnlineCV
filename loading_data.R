@@ -4,7 +4,7 @@ library(lubridate)
 # datas for the profile example
 temp_profile <- list(
   my_name = "Vishal Sharma",
-  my_position = "Senior Analyst Modeler - Pricing (A&BI)",
+  my_position = "Senior Analyst Modeller - Pricing (A&BI)",
   my_age = year(Sys.Date()) - year(as.Date("1994-03-30")),
   my_interests = c(
     "R Programming",
@@ -104,7 +104,7 @@ temp_formations <- data.frame(
     "Modern School"
   ),
   supervisor = c(
-    "Dr. Quentin Caudron",
+    "Quentin Caudron, PhD",
     "Mr. Tarun Singh",
     "Mr. Mandeep Katre",
     "Dr. A. K. Singh"
@@ -122,14 +122,22 @@ temp_formations <- data.frame(
 temp_tasks <- list(
   # one task dataframe per project
   project1 = data.frame(
-    name = c("Optimization of Shiny Dashboard", "Tableau Dashboard for Deals"),
-    status = rep("wip", 2)
+    name = c("Data Quality Dashboard", "Revaluation Automation", "Channel Mix Model"),
+    status = rep("wip", 3)
   ),
   project2 = data.frame(
-    name = c("Data Standardization", "QA Automation", "Code Rationalisation"),
+    name = c("Identifying prospective investment opprotunity", "Pricing of Portfolio", "Prediction of Risk on the portfolio"),
     status = rep("completed", 3)
   ),
   project3 = data.frame(
+    name = c("Optimization of Shiny Dashboard", "Tableau Dashboard for Deals"),
+    status = rep("completed", 2)
+  ),
+  project4 = data.frame(
+    name = c("Data Standardization", "QA Automation", "Code Rationalisation"),
+    status = rep("completed", 3)
+  ),
+  project5 = data.frame(
     name = c(
       "Performing Loans Modeling",
       "Non Performing Loans Modeling",
@@ -137,15 +145,15 @@ temp_tasks <- list(
     ),
     status = rep("completed", 3)
   ),
-  project4 = data.frame(
+  project6 = data.frame(
     name = c("Shiny User Interface", "Deployment"),
     status = rep("completed", 2)
   ),
-  project5 = data.frame(
+  project7 = data.frame(
     name = c("Shiny User Interface", "Python API Gateway"),
     status = rep("completed", 2)
   ),
-  project6 = data.frame(
+  project8 = data.frame(
     name = c(
       "Markdown Exploratory Data Analysis",
       "Geocoder",
@@ -153,7 +161,7 @@ temp_tasks <- list(
     ),
     status = rep("completed", 3)
   ),
-  project7 = data.frame(
+  project9 = data.frame(
     name = c(
       "Term Deposit Subscription",
       "Anaomaly Detection",
@@ -162,7 +170,7 @@ temp_tasks <- list(
     ),
     status = rep("completed", 4)
   ),
-  project8 = data.frame(
+  project10 = data.frame(
     name = c(
       "Outlier Detection",
       "House Type Frequencies",
@@ -171,7 +179,7 @@ temp_tasks <- list(
     ),
     status = rep("completed", 4)
   ),
-  project9 = data.frame(
+  project11 = data.frame(
     name = c(
       "Bank Switching Analysis & Development",
       "Code Reviews",
@@ -179,7 +187,7 @@ temp_tasks <- list(
     ),
     status = rep("completed", 3)
   ),
-  project10 = data.frame(
+  project12 = data.frame(
     name = c("Impact Analysis", "Identification of Resolver Group"),
     status = rep("completed", 2)
   )
@@ -188,6 +196,8 @@ temp_tasks <- list(
 # datas for project example
 temp_projects <- data.frame(
   title = c(
+    "Minerva Product Analytics",
+    "Portfolio Pricing",
     "Amitra Optimisation",
     "Delivery Engine",
     "Pricing Engine",
@@ -203,6 +213,8 @@ temp_projects <- data.frame(
     "Senior Analyst - Modeler",
     "Senior Analyst - Modeler",
     "Senior Analyst - Modeler",
+    "Senior Analyst - Modeler",
+    "Senior Analyst - Modeler",
     "Data Scientist",
     "Data Scientist",
     "Data Scientist",
@@ -212,6 +224,8 @@ temp_projects <- data.frame(
     "Junior Data Scientist"
   ),
   overview = c(
+    "Competetive analysis and brainstorming to offer more services and product offerings to the clients",
+    "Pricing prospective investment opportunities and existing investments on Performing loans, Non-performing loans, and securitisation pricing",
     "Shiny dashboard runtime optimization and creation of a new tableau dashboard of Servicers",
     "Prediction of new categorical variables' values and rationalisation of code across teams",
     "Creating a modeling framework for PL, NPL, and utility function for data preparation and tidyness of data",
@@ -224,6 +238,8 @@ temp_projects <- data.frame(
     "Airbus is one of the largest manufacturers of aerospace vehicles. It is mainly located in Europe but serves worldwide. It is a leader in innovating aerospace business and aerospace vehicles."
   ),
   supervisors = c(
+    "Saurabh Sharma",
+    "Vimal Chaudhary",
     "Rahul Maggo",
     "Utkarsh Srivastava",
     "Vimal Chaudhary",
@@ -236,6 +252,8 @@ temp_projects <- data.frame(
     "Sauveer Goel"
   ),
   place = c(
+    "Noida, Uttar Pradesh, India",
+    "Noida, Uttar Pradesh, India",
     "Noida, Uttar Pradesh, India",
     "Noida, Uttar Pradesh, India",
     "Noida, Uttar Pradesh, India",

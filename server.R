@@ -160,7 +160,7 @@ shinyServer(function(input, output, session) {
       paste("Vishal Sharma CV", ".pdf", sep = "")
     },
     content = function(file) {
-      file.copy("www/Vishal Sharma CV Sep 2022.pdf", file)
+      file.copy("www/Vishal CV Nov 2022.pdf", file)
     },
     contentType = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
   )
