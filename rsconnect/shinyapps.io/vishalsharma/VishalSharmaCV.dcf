@@ -5,10 +5,10 @@ account: vishalsharma
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2357635
-bundleId: 6378479
+bundleId: 6532728
 url: https://vishalsharma.shinyapps.io/VishalSharmaCV/
-when: 1665123619.68708
-lastSyncTime: 1665123619.68709
+when: 1668873334.38528
+lastSyncTime: 1668873334.38529
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: .RData
